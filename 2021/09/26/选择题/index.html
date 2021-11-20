@@ -1,0 +1,657 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>计算机三级选择题 | Welcome to Deven's Blog</title><meta name="keywords" content="NCRE"><meta name="author" content="Deven"><meta name="copyright" content="Deven"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="选择题1、网络系统结构与设计原则 ASDL上行64K640K、下行500k7M、具有非对称特性、可以通过 PSTN 接入 Internet OC-1     51.86 广域网的主要技术：diffserve、MPLS、RSVP 核心层提供Internet网络出口 RPR每一个节点执行SRP公平算法，外（顺时针），内（逆时针），都可以用于传输分组和控制分组，数据帧从目的节点回收，两个 RPR 结点间">
+<meta property="og:type" content="article">
+<meta property="og:title" content="计算机三级选择题">
+<meta property="og:url" content="https://pingden.github.io/2021/09/26/%E9%80%89%E6%8B%A9%E9%A2%98/index.html">
+<meta property="og:site_name" content="Welcome to Deven&#39;s Blog">
+<meta property="og:description" content="选择题1、网络系统结构与设计原则 ASDL上行64K640K、下行500k7M、具有非对称特性、可以通过 PSTN 接入 Internet OC-1     51.86 广域网的主要技术：diffserve、MPLS、RSVP 核心层提供Internet网络出口 RPR每一个节点执行SRP公平算法，外（顺时针），内（逆时针），都可以用于传输分组和控制分组，数据帧从目的节点回收，两个 RPR 结点间">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pingden.github.io/deven/NCRE.jpg">
+<meta property="article:published_time" content="2021-09-25T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-11-20T13:13:57.901Z">
+<meta property="article:author" content="Deven">
+<meta property="article:tag" content="NCRE">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pingden.github.io/deven/NCRE.jpg"><link rel="shortcut icon" href="/deven/fav.png"><link rel="canonical" href="https://pingden.github.io/2021/09/26/%E9%80%89%E6%8B%A9%E9%A2%98/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '计算机三级选择题',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-11-20 21:13:57'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/deven/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/deven/top.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Welcome to Deven's Blog</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">计算机三级选择题</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-09-25T16:00:00.000Z" title="发表于 2021-09-26 00:00:00">2021-09-26</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-11-20T13:13:57.901Z" title="更新于 2021-11-20 21:13:57">2021-11-20</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="计算机三级选择题"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="选择题"><a href="#选择题" class="headerlink" title="选择题"></a>选择题</h1><h2 id="1、网络系统结构与设计原则"><a href="#1、网络系统结构与设计原则" class="headerlink" title="1、网络系统结构与设计原则"></a>1、网络系统结构与设计原则</h2><ul>
+<li>ASDL上行64K<del>640K、下行500k</del>7M、具有<strong>非对称</strong>特性、可以通过 <strong>PSTN</strong> 接入 Internet</li>
+<li>OC-1     51.86</li>
+<li>广域网的主要技术：<strong>diffserve</strong>、<strong>MPLS</strong>、<strong>RSVP</strong></li>
+<li><strong>核心层</strong>提供Internet网络出口</li>
+<li>RPR每一个节点执行<strong>SRP</strong>公平算法，<strong>外（顺时针）</strong>，<strong>内（逆时针）</strong>，都可以用于传输分组和控制分组，数据帧从<strong>目的节点</strong>回收，两个 RPR 结点间的裸光纤最大长度可达 <strong>100公里</strong></li>
+<li>802.11.a  54M       802.11.b    11M</li>
+<li>Cable Modem采用<strong>频分复用</strong>分出上下行信道</li>
+<li>光以太网技术<strong>不是</strong>以信元为单位传输的</li>
+</ul>
+<h2 id="2、中小型网络系统总体规划与设计方法"><a href="#2、中小型网络系统总体规划与设计方法" class="headerlink" title="2、中小型网络系统总体规划与设计方法"></a>2、中小型网络系统总体规划与设计方法</h2><ul>
+<li><p>高性能路由器一般采用<strong>交换式</strong>的结构，决定着路由器的吞吐量</p>
+</li>
+<li><p>网络系统分层设计中层次之间上联带宽与下联带宽的比例一般控制在<strong>1:20</strong>。</p>
+</li>
+<li><p>路由器的主要技术指标包括：</p>
+<pre><code>1、吞吐量：指包转发能力，涉及两个内容--端口吞吐量和整机吞吐量，与路由器端口数量、**端口速率**、包长度、包类型有关。
+2、**背板能力**：是路由器输入输出的物理通道，高性能路由器采用交换式结构，决定着路由器的**吞吐量**。
+3、**丢包率**，衡量路由器超负荷工作能力的指标之一。
+4、延时和延时抖动：高速路由器要求长度为1518B的IP包延时小于1ms，语音、视频业务对延时抖动要求较高。
+5、突发处理能力：以最小帧间隔发送而不引起丢失的最大发送速率。
+6、服务质量：表现在队列管理机制、端口硬件队列管理、支持QoS协议上，其中队列管理机制指队列调度算法和拥塞管理机制。
+7、可靠性与可用性：无故障连续工作时间大于**10**万小时，系统故障恢复时间小于**30**分钟，所有的自动切换在**50ms**内完成。
+</code></pre>
+<p>​    8、突发处理能力<strong>不是</strong>以最小帧间隔值来衡量的</p>
+</li>
+<li><p>RAID：独立磁盘冗余阵列，将多个独立的磁盘组成一个整体，提高存取速度，提高系统可靠性。</p>
+<pre><code>**Cluster**：集群，向一组独立的计算机提供高速通信线路，组成一个共享数据存储空间的服务器系统，同时如果一台主机出现了故障，它所运行的程序将立即转移到其他主机。    
+</code></pre>
+</li>
+<li><p>交换机</p>
+<ul>
+<li><p>基本功能是维护一个表示 <strong>MAC 地址和交换机端口对应关系</strong>的交换表</p>
+</li>
+<li><p>具有三种交换模式：1.<strong>快速转发</strong>直通式，接收到前 <strong>14 个字节</strong>就转发数据；</p>
+<p>​                                   2.<strong>碎片丢弃式</strong>，缓存前 <strong>64</strong> 个字节；</p>
+<p>​                                   3.<strong>储存转发式</strong>，转发之前读取整个帧</p>
+</li>
+<li><p><strong>三层交换机</strong>是具有部分路由器功能的交换机，用于加快大型局域网内部的数据交换</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="3、IP地址规划设计技术"><a href="#3、IP地址规划设计技术" class="headerlink" title="3、IP地址规划设计技术"></a>3、IP地址规划设计技术</h2><p><img src="C:\Users\Deng\AppData\Roaming\Typora\typora-user-images\image-20210903104734207.png" alt="image-20210903104734207"></p>
+<ul>
+<li><strong>外网访问主机的URL为左上的S</strong></li>
+<li>IPv6不可用子网掩码表示网络号长度</li>
+</ul>
+<h2 id="4、路由器设计基础"><a href="#4、路由器设计基础" class="headerlink" title="4、路由器设计基础"></a>4、路由器设计基础</h2><ul>
+<li><p><strong>OSPF</strong>    （最短路径优先协议）</p>
+<ul>
+<li>区域内每个路由器包含<strong>本区域的完整网络拓扑</strong>，而不是全网的情况（拓扑的意思是链接形式和位置关系之类的）</li>
+</ul>
+<p>​    1.OSPF是开放系统最短路径优先协议。<br>​    2.OSPF使用<strong>分布式</strong>链路状态协议。<br>​    3.OSPF要求路由器发送的信息是本路由器与哪些路由器相邻，以及链路的度量值（OSPF使用的度量值包括<strong>费用、距离、延时、带宽</strong>）。<br>​    4.OSPF使用<strong>洪泛法</strong>发送信息，向所有路由发送<br>​    5.OSPF协议要求让路由器建立一个链路状态数据库，<strong>该数据库实际上是全网的拓扑结构图</strong>。<br>​    6.OSPF将一个自治系统划分为多个区域（area），每个区域有一个<strong>32位</strong>的区域标识符，每个区域内的路由器通常不超过<strong>200个</strong>。<br>​    7.使用OSPF的路由器只需要建立本区域内的链路状态数据库，负责各区域之间通信的路由器叫做区域边界路由器，只需要将来自本区域的信息发送给下一个区域的区域边界路由器，同样不需要获取其他区域的链路状态数据库。</p>
+</li>
+<li><p><strong>RIP</strong>  （路由信息协议）</p>
+<ul>
+<li>RIP 是<strong>内部网关</strong>协议中使用最广泛的一种协议，它是一种<strong>分布式</strong>、基于<strong>距离向量</strong>的路由选择协议，要求路由器周期性地向外发送路由刷新报文</li>
+<li>路由刷新报文主要内容是由若干个（V，D）组成的表。V 标识该路由器可以到达的目标网络（或目的主机）；D 指出该路由器到达目标网络（或目标主机）的距离。距离D对应该路由器上的跳数。其他路由器在接收到某个路由器的（V，D）报文后，按照最短路径原则对各自的路由表进行刷新</li>
+</ul>
+</li>
+<li><p><strong>BGP</strong> （边界网关协议）</p>
+<ul>
+<li><p>使用 <strong>TCP</strong>（不是UDP）与其他自治系统的 BGP 发言人交换信息</p>
+</li>
+<li><p>BGP 采用<strong>路由向量协议</strong>，而 RIP 采用距离向量协议</p>
+</li>
+<li><p>BGP协议有四种分组：<strong>open</strong>（与相邻的另一个BGP发言人建立关系）、<strong>update</strong>（发送要更新的某一条路由信息或要删除的多条路由信息）、<strong>keepalive</strong>（周期性的证实相邻的边界路由器存在）、<strong>notification</strong>（发送监测到的错误）。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="5、局域网技术"><a href="#5、局域网技术" class="headerlink" title="5、局域网技术"></a>5、局域网技术</h2><ul>
+<li><p>嵌入式插座用来<strong>连接双绞线</strong></p>
+</li>
+<li><p><strong>多介质插座用来连接铜缆和光纤</strong>，满足用户“光纤到桌面”的需求</p>
+</li>
+<li><p>建筑群子系统可以是多种布线方式的任意组合，<strong>地下管道布线是最理想的方式</strong></p>
+</li>
+<li><p>STP 比 UTP 贵、复杂、抗干扰能力强、辐射小</p>
+</li>
+<li><p><strong>集线器</strong></p>
+</li>
+</ul>
+<p>​     连接到集线器的<strong>结点</strong>（结点，不是集线器）执行<strong>CSMA/CD</strong>，当一个结点发送数据时，所有结点都能接收到。<br>​    集线器工作在物理层，连接到一个集线器的所有结点<strong>共享一个冲突域</strong>。<br>​    附加知识点：IP地址工作在网络层，MAC地址（物理地址）工作在数据链路层，而集线器运行在物理层，对应的层次不同的就是错误的</p>
+<ul>
+<li><p>综合布线</p>
+<ul>
+<li>关于传输介质（线缆）：通常使用光纤和双绞线。双绞线特点是价格低廉，传输距离上限100米（为留有余量，综合布线时通常认为是<strong>90米</strong>），传输速率上限1Gbps，当双绞线无法满足需求时，就改用光纤（光纤各项参数均高于双绞线，只是价格也高于双绞线）。    </li>
+<li>关于插座，大体分为嵌入式插座（连接双绞线用）、表面安装插座和<strong>多介质信息插座</strong>（连接<strong>铜缆和光纤</strong>，而双绞线和同轴电缆都属于铜缆）。    </li>
+<li>关于干线线缆的铺设：有两种方式：<strong>点对点结合</strong>（最简单直接）和<strong>分支结合</strong>（由干线电缆中一根很大的主馈电缆完成，通过交接盒分出若干小电缆。）    </li>
+<li>关于管理子系统：可以在<strong>管理子系统中</strong>更改、增加、交换、扩展线缆用于改变线缆路由。</li>
+<li>布线方式有四种：<pre><code>架空布线--优点只有成本低，其他方面均不理想。
+**巷道布线**--利用建筑物之间的地下巷道布线，成本略高于架空布线，需要考虑如何避免线缆，可利用巷道原本的保护设施。
+直埋布线--除穿过基础墙的部分外，电缆的其他部分没有管道保护。可保持建筑物原貌，线缆应埋在地下60cm以下。
+**管道布线**--在建筑物下铺设管网，能保持建筑物原貌，并对线缆提供最好的机械保护。
+**架空布线和直埋布线对线缆的保护不好**，但直埋布线除了考虑线缆在地下的被腐蚀程度高于架空布线外，还要考虑施工挖掘造成的误损。
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>以太网物理层标准命名。<pre><code>命名法是IEEE 802.3 x Type-y Name。其中x表示传输速率，单位Mbps；y表示网段最大长度，**单位100m**；Type表示传输方式是基带还是频带；Name表示局域网名称。
+</code></pre>
+</li>
+<li>交换机的交换结构有以下四种：<pre><code>1)软件执行交换结构：结构灵活，速度慢，堆叠困难，端口越多性能越弱。
+2)矩阵交换结构：完全硬件实现，速度快、延时小、结构紧凑、实现相对简单、不易扩展、不利于性能监控和运行管理。
+3)总线交换：使用多路复用TDM技术，性能好、便于堆叠扩展、易实现广播、易实现监控管理，但是对总线带宽要求较高。
+4)共享存储器交换结构：结构简单易于实现，成本高，适合小型交换机。
+</code></pre>
+</li>
+</ul>
+<ul>
+<li><strong>无线接入点（AP）</strong>：集合无线或者有线终端（类似于集线器和交换机），负责频段管理和漫游工作（SSID 是客户端设备用 来访问接入点的唯一标识）</li>
+<li><strong>无线路由器</strong>：具有无线路由功能和 <strong>NAT</strong> 功能的 AP ，可用来建立小的无线局域网。</li>
+<li><strong>无线网桥</strong>：用于连接几个<strong>不同的网段</strong>，实现较远距离的无线通信（网桥最重要的维护工作是构建和维护 MAC 地址表）</li>
+<li><strong>无线网卡</strong>：实现<strong>点对点</strong>通信，安装于各终端节点</li>
+</ul>
+<h2 id="6、交换机及其配置"><a href="#6、交换机及其配置" class="headerlink" title="6、交换机及其配置"></a>6、交换机及其配置</h2><ul>
+<li><p><strong>小型交换表</strong> ： show mac-address-table    目的MAC、类型、VLAN、目的端口(Fast Eth0/3)</p>
+<ul>
+<li><img src="%E9%80%89%E6%8B%A9%E9%A2%98.assets/image-20210922102638917.png" alt="image-20210922102638917"></li>
+</ul>
+</li>
+<li><p><strong>大型交换表</strong>：show cam dynamic          VLAN、目的MAC、交换机端口（2/5[ALL]）</p>
+<ul>
+<li><img src="%E9%80%89%E6%8B%A9%E9%A2%98.assets/image-20210922102657693.png" alt="image-20210922102657693"></li>
+</ul>
+</li>
+<li><p>交换模式：<strong>快速</strong>转发(直通，14字节)、<strong>碎片</strong>丢弃(64字节)、<strong>存储</strong>转发(全部)</p>
+</li>
+<li><p><strong>VLAN</strong></p>
+<ul>
+<li><p>工作在数据链路层（OSI参考模型的第二层）</p>
+</li>
+<li><p>可隔离广播信息，每个VLAN为一个广播域</p>
+</li>
+<li><p>不同VLAN中的主机不能直接通信，必须经过路由器或三层交换机</p>
+</li>
+<li><p>VLAN <strong>ID</strong>用<strong>12</strong>bit表示，1<del>1005标准，1006</del>1024保留，1025~4096扩展</p>
+</li>
+<li><p>能用于以太网的为<strong>1~1000</strong>，其中1为默认（不能删除）</p>
+</li>
+<li><p>VLAN name用<strong>32个字符</strong>表示（可数字/字母），默认为<strong>VLAN00xxx</strong>；</p>
+</li>
+</ul>
+</li>
+<li><p><strong>STP生成树协议</strong></p>
+<ul>
+<li>生成树协议是工作于OSI模型<strong>第二层</strong>的链路管理协议，运行在第二层链路中提供冗余路径，最早的标准是<strong>IEEE 802.1D</strong></li>
+<li>运行在<strong>交换机和网桥</strong>设备上</li>
+<li> Bridge ID由<strong>2字节</strong>的优先级（0~61400）和<strong>6字节</strong>的交换机MAC地址组成。</li>
+<li>交换机优先级的增量是<strong>4096</strong>，即每次变化的值必须是4096的整数倍，同时值越小优先级越高。交换机的优先级默认为（<strong>32768</strong>）</li>
+<li> BPDU包含两种：配置BPDU（&lt;=<strong>35</strong>字节），拓扑变化通知BPDU（&lt;=<strong>4</strong>字节）</li>
+<li> Bridge ID<strong>最小</strong>的为根网桥，当优先值相同时，那么就根据MAC地址的值确定根网桥，MAC地址<strong>最小</strong>的为根网桥。BPDU每隔<strong>2s</strong>发送一次。</li>
+</ul>
+</li>
+<li><p>链路失效时，交换机们会重新构建生成树，但是在构建时，需要经历20s（BPDU最大生存时间）+15s（listening）+15s（learning），快速生成树技术可以省掉前20s的时间，提高收敛速度。</p>
+<pre><code>快速生成树技术主要包含：
+1、backbonefast：网中链路失效时。
+2、uplinkfast：直连链路失效时。
+3、portfast：只适用于端口连接单个主机的时候。
+4、BPDU Filter：强行要求端口转为转发状态。
+</code></pre>
+</li>
+<li><p>交换机有三种配置方式：<br>   1、使用<strong>Console</strong>控制端口进行本地配置。<strong>第一次配置</strong>只能采取这种方式。<br>   2、使用Telnet远程登录到交换机进行配置。<br>   3、使用Web，利用浏览器进行配置。</p>
+</li>
+</ul>
+<p>​     </p>
+<ul>
+<li><strong>VLAN（虚拟局域网）技术</strong><pre><code>VLAN的划分有三种方法：基于端口号、基于MAC地址，基于第三层地址。
+由题意可知，4台计算机都连接在交换机的同一端口之下，所以无法基于端口号划分。由于题目没有提到第三层地址，所以第三层地址备选。
+MAC地址是被固化到网卡芯片上的，每块网卡都具有全球唯一的MAC地址，可以实现题目所要求的vlan划分。
+</code></pre>
+</li>
+</ul>
+<ul>
+<li><p><strong>配置交换机</strong></p>
+<ul>
+<li><p>设置系统时间</p>
+<ul>
+<li>35系列：clock set 时分秒   日月年</li>
+<li>65系列：set time 星期几  月日年  时分秒</li>
+</ul>
+</li>
+<li><p>配置设备管理地址与缺省路由</p>
+<ul>
+<li><p>35：ip address &lt;IP地址&gt;&lt;子网掩码&gt;</p>
+<p>​         ip default-gateway&lt;缺省路由IP地址&gt;</p>
+</li>
+<li><p>65：set interface sc0 &lt;IP地址&gt;&lt;子网掩码&gt;&lt;直接广播地址&gt;</p>
+<p>​        set ip route 0.0.0.0 &lt;缺省路由IP地址&gt;</p>
+</li>
+</ul>
+</li>
+<li><p>端口配置</p>
+<ul>
+<li><p>35：shutdown（关闭）、    no shutdown（开启）</p>
+<p>​        duplex  full（设置为全双工）</p>
+<p>​        duplex  half（设置为半双工）</p>
+<p>​        speed 10 （设置端口速率为10Mbit/s）</p>
+</li>
+<li><p>65：命令格式为set port name &lt;mod/port&gt;<name>     (name为端口描述)</p>
+<p>​        set port disable &lt;mod/port&gt;   （关闭端口）</p>
+<p>​        set port enable &lt;mod/port&gt;   （开启端口）</p>
+<p>​        set port duplex &lt;mod/port&gt;   full（设置为全双工）</p>
+<p>​        set port duplex &lt;mod/port&gt;   half（设置为半双工）</p>
+<p>​        set port speed &lt;mod/port&gt;  10（设置端口速度为10Mbit/s）</p>
+</li>
+</ul>
+</li>
+<li><p>VLAN的配置</p>
+<ul>
+<li><p>35：vlan <vlan_ID> name <vlan_name> （建立）</p>
+<p>  ​        no vlan 100 （删除ID为100的）</p>
+</li>
+<li><p>65：set vlan <vlan_ID> name <vlan_name>  （建立）</p>
+<p>​        clear vlan 100 （删除ID为100的）</p>
+</li>
+</ul>
+</li>
+<li><p>VLAN Trunk的配置</p>
+<ul>
+<li><p>35：switchport trunk encapsulation dotlq（封装模式为<strong>802.1Q</strong>）</p>
+<p>​        switchport trunk encapsulation isl（封装<strong>ISL</strong>协议）</p>
+<p>​        switchport trunk allowed vlan 1，10 （允许VLAN 1和VLAN 10）</p>
+<p>​        switchport trunk allowed vlan except 11-20 （不允许VLAN 11到VLAN 20）</p>
+</li>
+<li><p>65：set trunk 1/24 on dotlq（封装模式为<strong>802.1Q</strong>）</p>
+<p>​          set trunk  1/24 vlan 11-20 （允许）</p>
+<p>​            clear trunk  1/24 vlan 11-20 （不允许）</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>交换机VTP的设置</strong></p>
+<ul>
+<li>server：维护该VTP域中所有的VLAN信息列表，可建立、删除或修改VLAN</li>
+<li>client：信息只能从server学习到，不能建立、删除或修改VLAN</li>
+<li>transparent：相当于一个独立的交换机，只能建立、删除或修改VLAN</li>
+</ul>
+</li>
+</ul>
+<h2 id="7、路由器及其配置"><a href="#7、路由器及其配置" class="headerlink" title="7、路由器及其配置"></a>7、路由器及其配置</h2><ul>
+<li><p>存储器：</p>
+<ul>
+<li>Flash 主要用于存储当前使用的<strong>操作系统映像</strong>文件和微代码</li>
+<li>NVRAM 主要存储<strong>启动配置文件</strong>或<strong>备份配置</strong>文件</li>
+<li>RAM 主要存储路由表、快速交换缓存、ARP 缓存、数据分组缓冲区和缓冲队列、运行配置文件等</li>
+<li>ROM 主要用来永久保存路由器的<strong>开机诊断程序</strong>、<strong>引导程序</strong>和操作系统软件</li>
+</ul>
+</li>
+<li><p>路由表：</p>
+<ul>
+<li>C：直连，0</li>
+<li>S：静态，1</li>
+<li>I：IGRP，100</li>
+<li>O：OSPF，<strong>110</strong></li>
+<li>B： <strong>200</strong></li>
+</ul>
+</li>
+<li><p>via+目的IP地址</p>
+</li>
+<li><p><strong>0.0.0.0/0</strong></p>
+</li>
+<li><p><img src="%E9%80%89%E6%8B%A9%E9%A2%98.assets/image-20210922103705680.png" alt="image-20210922103705680"></p>
+</li>
+<li><p>RIP协议衡量路由信息好坏的依据是跳数（从自身开始抵达目的地所需要经过的路由器个数）；每隔30s向外广播一次路由表；<strong>最大跳数15次</strong>，16次即网络不可达；默认AD值120；可以使用passive-interface命令配置被动接口，被动接口将不会向外发送路由信息。</p>
+</li>
+<li><p>access-list</p>
+<ul>
+<li>deny 在permit前</li>
+<li>协议在any前</li>
+<li>ip access-list允许用名字但access-list不行</li>
+<li><strong>标准1-99</strong>，1300-1999</li>
+<li><strong>扩展100-199</strong>，2000-2699</li>
+<li>access list ACL_ID permit或deny 源IP  <strong>反掩码</strong></li>
+</ul>
+</li>
+<li><p>weite memory 保存在<strong>NVRAM</strong>中</p>
+</li>
+<li><p>执行ip route命令需进入<strong>全局配置模式</strong></p>
+</li>
+<li><p><strong>查看</strong>配置信息需<strong>特权</strong>模式</p>
+</li>
+<li><p>当路由表包含多种路由信息，会选择<strong>connected</strong></p>
+</li>
+</ul>
+<h2 id="8、无线局域网设备安装与调试"><a href="#8、无线局域网设备安装与调试" class="headerlink" title="8、无线局域网设备安装与调试"></a>8、无线局域网设备安装与调试</h2><ul>
+<li><p>配置接入点之前，需要从管理员处获取的信息如下：</p>
+<pre><code>1、系统名称
+2、SSID
+3、如果没有连接到DHCP，则需为接入点指定一个唯一的IP地址
+4、接入点与PC不在同一子网内的话，需要子网掩码和默认网关
+5、SNMP集合名称以及相关文件属性。
+</code></pre>
+</li>
+<li><p>蓝牙</p>
+<ul>
+<li><p>ISM频段2.402~2.480GHz</p>
+</li>
+<li><p>**异步： ** <strong>非对称</strong> 733.2kbit/s    /       57.6kbit/s</p>
+<p>​              <strong>对称</strong>   433.9kbit/s</p>
+</li>
+<li><p><strong>同步</strong> : 64kbit/s、跳频 1600次/s</p>
+</li>
+<li><p>1mW（1~10m），100mW（100m）</p>
+</li>
+</ul>
+</li>
+<li><p>HiperLAN</p>
+<ul>
+<li>采用<strong>5G</strong>的射频频率</li>
+<li>HiperLAN/1上行20Mbit/s，HiperLAN/2（3G标准）上行<strong>54M</strong>bit/s</li>
+<li>室内30m，室外150m</li>
+<li>面向连接，采用OFDM调制技术</li>
+</ul>
+</li>
+<li><p>802.11标准</p>
+<p>   <img src="C:\Users\Deng\AppData\Roaming\Typora\typora-user-images\image-20210907093845837.png" alt="image-20210907093845837"></p>
+<ul>
+<li>点对点：只需要<strong>无线网卡</strong>，<strong>256</strong>台PC</li>
+<li>基本模式：无线接入点，1024台PC</li>
+<li>无线网桥：<strong>连接两个局域网</strong>并保持其在同一网段</li>
+<li>无线路由器：可建立局域网，有<strong>NAT</strong>功能</li>
+<li>对等将无线局域网与有线局域网相连方法是在其中一台计算机上再安装一块以太网网卡</li>
+</ul>
+</li>
+<li><p>安装无线接入点</p>
+<ul>
+<li><p>线内供电：</p>
+</li>
+<li><p>本地电源：</p>
+<p>1.连接以太网接口</p>
+<p>2.电源接入“48V DC”接口</p>
+<p>3.电源模块另一端接到AC 100~250V电源插座</p>
+</li>
+</ul>
+</li>
+<li><p>配置无线接入点</p>
+<ul>
+<li>第一次一般采用本地配置方式</li>
+<li>默认IP 10.0.0.1，PC机可分配到10.0.0.X</li>
+<li>使用双绞线连接</li>
+<li>浏览器访问10.0.0.1，出现登录对话框</li>
+<li>用户名为空，密码为Cisco</li>
+<li>单机“Express Setup”进入快速配置页面</li>
+</ul>
+</li>
+</ul>
+<p><img src="C:\Users\Deng\AppData\Roaming\Typora\typora-user-images\image-20210907095048155.png" alt="image-20210907095048155"></p>
+<p><img src="C:\Users\Deng\AppData\Roaming\Typora\typora-user-images\image-20210907095101337.png" alt="image-20210907095101337"></p>
+<h2 id="9、计算机网络信息服务系统的安装与配置"><a href="#9、计算机网络信息服务系统的安装与配置" class="headerlink" title="9、计算机网络信息服务系统的安装与配置"></a>9、计算机网络信息服务系统的安装与配置</h2><ul>
+<li>配置FTP服务器。<pre><code>1、默认没有管理员密码。
+2、创建域时需要配置**IP地址**（用户只能通过该IP地址访问FTP服务器，为空则意味服务器的所有IP地址）、**域名**（仅是用于对服务器的描述的名字，不是真正的域名）、**端口号**、**域存储位置**（低于500用.ini文件，高于500用注册表）。
+3、用户管理中，只允许由管理员添加新用户，添加用户后才能被客户端访问，用户包括匿名用户（**用户名anonymous，密码为空**）和命名用户，密码长度最多8字符。
+4、常用选项中，勾选拦截“FTP BOUNCE” 和FXP，则不允许在两个FTP服务器间传输文件。
+不允许用户自行注册。
+</code></pre>
+</li>
+<li>配置FTP服务器。<pre><code>1、通常来说，除DHCP必须是静态IP外，其余服务器要求IP地址不变，可以用静态IP也可以通过DHCP的保留地址来配置，而动态分配的IP地址则是每次申请到的IP可能会不同。
+2、**添加**用户后才能被客户端访问，用户包括匿名用户（**用户名anonymous，密码为空**）和命名用户，密码长度最多8字符。
+3、创建域时需要配置IP地址、域名、端口号、域存储位置（低于500用.ini文件，高于500用注册表）。
+4、限制（不允许）某些IP地址能否访问FTP服务器可以通过设置IP访问来实现。
+</code></pre>
+</li>
+<li>配置E-mail服务器。<pre><code>1、Winmail支持web和客户端两种方式。
+2、邮件管理工具包括系统设置、域名设置、用户合租、系统状态、系统日志等。
+3、系统设置可以对邮件服务器的系统参数进行设置，例如SMTP、邮件过滤、管理员密码等。
+4、**域名设置**可以对域进行新建（用于构建虚拟邮件服务器）、删除、修改，例如**是否允许**在本域中自行注册新用户。
+5、建立邮件路由，需要在DNS服务器里建立邮件服务器主机记录和邮件交换器记录
+增加新的域，看字面理解就能知道那是域名设置的工作范畴。
+</code></pre>
+</li>
+<li>配置E-mail服务器。<pre><code>1、Winmail的邮箱可以在服务器端由管理员创建，**也可以由用户自行注册**。
+2、邮件保存在收件人的信箱中。
+3、**IMAP和POP3**协议是用于收邮件的，发邮件用的是SMTP。
+4、建立邮件路由时，需要在DNS服务器里建立邮件服务器主机记录和邮件交换器记录
+</code></pre>
+</li>
+<li>配置DNS服务器。<pre><code>DNS中的正向查找区域负责查找某域名所对应的IP地址，而DNS服务器的测试可以使用**nslookup**（**正向反向均可测试**）和ping（只能测试正向），当解析出对应的内容后即代表解析成功。
+</code></pre>
+​    DNS 服务器中的<strong>根服务器</strong>被<strong>自动</strong>加入到系统中，<strong>不需</strong>管理员手工配置</li>
+<li>配置WWW服务器。<pre><code>1、主目录的访问权限在主目录选项中进行设置。
+2、网站选项可设置网站的标识和连接限制。
+3、主目录选项卡中，可以设置用于存放网页的文件路径。
+4、性能选项可设置影响带宽使用的属性及客户端连接的数量。
+</code></pre>
+<ul>
+<li>Web 站点可以配置<strong>静态</strong>和<strong>动态</strong> IP 地址</li>
+<li>访问 Web 站点时可以使用站点的<strong>域名</strong>或站点的 <strong>IP 地址</strong></li>
+<li>建立 Web 站点时<strong>必须</strong>为该站点指定一个主目录好，<strong>也可以是虚拟的子目录</strong></li>
+<li>Web 站点的性能选项包括影响带宽使用的属性和客户端 Web 连接的数量</li>
+<li>在 Web 站点的<strong>主目录选项卡</strong>中，可配置主目录的读取和写入等权限</li>
+</ul>
+</li>
+<li>配置WWW服务器。<pre><code>网站选项可以设置的内容包括：描述、IP地址、TCP端口、连接超时时间、是否启用日志记录。
+网络连接数量是性能选项中的。
+</code></pre>
+</li>
+<li>DHCP相关命令：<pre><code>查看DHCP信息--ipconfig  /all
+释放地址租约--ipconfig  /release
+重新获取地址租约--ipconfig  /renew
+</code></pre>
+<ul>
+<li>添加<strong>保留时需</strong>在 DHCP 客户机上获得其 <strong>MAC 地址</strong>信息（添加排除时不需从客户端获得 MAC 地址）</li>
+<li>不添加排除和保留时，服务器可将地址池内的 IP 地址动态指派给 DHCP 客户机</li>
+<li>地址池是作用域应用排除范围之后剩余的 IP 地址</li>
+<li>保留是指确保 DHCP 客户端永远可以得到同一 IP 地址，客户端可以释放该租约</li>
+<li>收到非中继转发的“DHCP发现”消息时,选择收到该消息的子网所处的网段分配 IP 地址</li>
+</ul>
+</li>
+</ul>
+<h2 id="10、网络安全技术"><a href="#10、网络安全技术" class="headerlink" title="10、网络安全技术"></a>10、网络安全技术</h2><ul>
+<li><strong>outside</strong>(0),<strong>inside</strong>(100),<strong>DMZ</strong>(50)</li>
+<li>系统的数据通信端口是可配置的</li>
+<li>PIX分为四种访问模式：非特权模式（其实就是用户模式）、特权模式（用户模式下输入enable后进入）、配置模式（特权模式下输入configure terminal进入，绝大多数系统配置都在这里做）以及<strong>监视模式</strong>（可以进行操作系统映像更新和口令恢复）。</li>
+<li><strong>RSA、DSA、ECC非对称</strong>** (<strong>2n</strong>)、<strong>DES、IDEA、RC2、Skipjack对称</strong>（*<em>n</em>(n-1)**）</li>
+<li>IPS具备<strong>嗅探</strong>功能</li>
+<li><strong>对等式</strong>能够真正避免单点故障</li>
+<li>应用入侵防护系统可以阻挡多种入侵，例如cookie篡改、SQL代码嵌入、参数篡改、缓冲器溢出、强制浏览等等（就是说基于网络的和基于主机的难于阻断）。</li>
+<li> 基于网络的入侵检测系统通常采用混杂模式，采用的技术包括：模式匹配、频率或阈值、事件的相关性、统计意义上的非正常现象检测。</li>
+<li><strong>误报</strong>（不是漏报）</li>
+</ul>
+<ul>
+<li><strong>网络攻击</strong><ul>
+<li>DDos 攻击：利用已经攻占的多个系统向目标攻击，被害设备面对<strong>大量请求</strong>无法正常处理而<strong>拒绝服务</strong></li>
+<li>SYN Flooding 攻击：利用 TCP <strong>三次握手</strong>过程，使受害主机处于会话请求之中，直至连接超时停止响应</li>
+<li>SQL 注入攻击：属于利用系统漏洞，防火墙（<strong>基于网络的防护系统）无法阻断</strong></li>
+<li>Land攻击：向某个设备发送数据包，并将数据包的源 IP 地址和目的地址都设置成<strong>攻击目标</strong>的地址</li>
+<li><strong>基于网络的防护系统也无法阻断 Cookie篡改 和 DNS欺骗</strong></li>
+<li>Tear doop 、Smurf 攻击可以被路由器阻止</li>
+</ul>
+</li>
+</ul>
+<h2 id="11、网络管理技术"><a href="#11、网络管理技术" class="headerlink" title="11、网络管理技术"></a>11、网络管理技术</h2><ul>
+<li>网络管理命令。<pre><code>nbtstat -a--使用远程计算机的名称列出名称表
+nslookup--用于正向和反向的DNS解析
+**netstat** -a--显示所有连接和侦听端口
+net view--显示域列表、计算机列表或指定计算机上共享资源的列表
+</code></pre>
+</li>
+<li>ICMP消息类型<ul>
+<li>3：目标不可达</li>
+<li>4：源抑制</li>
+<li>5：重定向</li>
+<li>11：超时</li>
+</ul>
+</li>
+<li> 管理站使用udp端口（整个snmp都基于<strong>UDP</strong>协议而非TCP，默认162）</li>
+<li>如果指定当一个接口断开或连接时向管理站发出通知，那么在该接口的配置模式下正确的配置命令是snmp trap link-status。</li>
+<li>用于<strong>显示域列表</strong>、计算机列表的命令是<strong>net view</strong>    </li>
+</ul>
+<ul>
+<li><p>sniffer抓包</p>
+<ul>
+<li>问在某路由器上，最多还可链接的路由器数量是多少。如果所在子网掩码是 /29 就填 3，是 /28 就填 <strong>11</strong>。</li>
+<li>问串接一种设备能监听路由器之间的流量，写 <strong>TAP</strong></li>
+<li>问串接一种设备能提供安全保护，一般是 <strong>IPS</strong></li>
+<li>问防火墙访问外网设置，分别填 <strong>nat</strong> 和 <strong>global</strong></li>
+</ul>
+</li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Deven</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://pingden.github.io/2021/09/26/%E9%80%89%E6%8B%A9%E9%A2%98/">https://pingden.github.io/2021/09/26/%E9%80%89%E6%8B%A9%E9%A2%98/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://pingden.github.io" target="_blank">Welcome to Deven's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/NCRE/">NCRE</a></div><div class="post_share"><div class="social-share" data-image="/deven/NCRE.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/2021/11/18/hello-world/"><img class="prev-cover" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Hello World</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="lv-container" data-id="city" data-uid="MTAyMC81NDc0My8zMTIxNA=="></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/deven/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Deven</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/pingden" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:xxxxxx@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%80%89%E6%8B%A9%E9%A2%98"><span class="toc-number">1.</span> <span class="toc-text">选择题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%E3%80%81%E7%BD%91%E7%BB%9C%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99"><span class="toc-number">1.1.</span> <span class="toc-text">1、网络系统结构与设计原则</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%E3%80%81%E4%B8%AD%E5%B0%8F%E5%9E%8B%E7%BD%91%E7%BB%9C%E7%B3%BB%E7%BB%9F%E6%80%BB%E4%BD%93%E8%A7%84%E5%88%92%E4%B8%8E%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.</span> <span class="toc-text">2、中小型网络系统总体规划与设计方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3%E3%80%81IP%E5%9C%B0%E5%9D%80%E8%A7%84%E5%88%92%E8%AE%BE%E8%AE%A1%E6%8A%80%E6%9C%AF"><span class="toc-number">1.3.</span> <span class="toc-text">3、IP地址规划设计技术</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4%E3%80%81%E8%B7%AF%E7%94%B1%E5%99%A8%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80"><span class="toc-number">1.4.</span> <span class="toc-text">4、路由器设计基础</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5%E3%80%81%E5%B1%80%E5%9F%9F%E7%BD%91%E6%8A%80%E6%9C%AF"><span class="toc-number">1.5.</span> <span class="toc-text">5、局域网技术</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6%E3%80%81%E4%BA%A4%E6%8D%A2%E6%9C%BA%E5%8F%8A%E5%85%B6%E9%85%8D%E7%BD%AE"><span class="toc-number">1.6.</span> <span class="toc-text">6、交换机及其配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7%E3%80%81%E8%B7%AF%E7%94%B1%E5%99%A8%E5%8F%8A%E5%85%B6%E9%85%8D%E7%BD%AE"><span class="toc-number">1.7.</span> <span class="toc-text">7、路由器及其配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8%E3%80%81%E6%97%A0%E7%BA%BF%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BE%E5%A4%87%E5%AE%89%E8%A3%85%E4%B8%8E%E8%B0%83%E8%AF%95"><span class="toc-number">1.8.</span> <span class="toc-text">8、无线局域网设备安装与调试</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9%E3%80%81%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BF%A1%E6%81%AF%E6%9C%8D%E5%8A%A1%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE"><span class="toc-number">1.9.</span> <span class="toc-text">9、计算机网络信息服务系统的安装与配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10%E3%80%81%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%8A%80%E6%9C%AF"><span class="toc-number">1.10.</span> <span class="toc-text">10、网络安全技术</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#11%E3%80%81%E7%BD%91%E7%BB%9C%E7%AE%A1%E7%90%86%E6%8A%80%E6%9C%AF"><span class="toc-number">1.11.</span> <span class="toc-text">11、网络管理技术</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/11/18/hello-world/" title="Hello World"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2021/11/18/hello-world/" title="Hello World">Hello World</a><time datetime="2021-11-18T13:27:24.058Z" title="发表于 2021-11-18 21:27:24">2021-11-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/09/26/%E9%80%89%E6%8B%A9%E9%A2%98/" title="计算机三级选择题"><img src="/deven/NCRE.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机三级选择题"/></a><div class="content"><a class="title" href="/2021/09/26/%E9%80%89%E6%8B%A9%E9%A2%98/" title="计算机三级选择题">计算机三级选择题</a><time datetime="2021-09-25T16:00:00.000Z" title="发表于 2021-09-26 00:00:00">2021-09-26</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/deven/top.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2021 By Deven</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi,welcome to Deven's Blog</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (true){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadLivere () {
+  if (typeof LivereTower === 'object') {
+    window.LivereTower.init()
+  }
+  else {
+    (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+  }
+}
+
+if ('Livere' === 'Livere' || !false) {
+  if (false) btf.loadComment(document.getElementById('lv-container'), loadLivere)
+  else loadLivere()
+}
+else {
+  function loadOtherComment () {
+    loadLivere()
+  }
+}</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
