@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>GPS数据提取及轨迹重现</title>
+   
+      <link rel="stylesheet" href="css/style.css">
+      <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>      
+   </head>
+   <body>
+      <div id = "map"></div>
+
+      <progress id="highbar" value="0" max="12000"></progress>
+      <div id="highMax">12000m</div>
+      <div id="highMin">0m</div>    
+      <ul class="scale-wrap">
+         <li class="scale">10000</li>
+         <li class="scale">8000</li>
+         <li class="scale">6000</li>
+         <li class="scale">4000</li>
+         <li class="scale">2000</li>
+      </ul>
+
+      <img src="icon/foot.png" id="state">
+
+      <ul class="btn-wrap" style="z-index: 99;">
+         <li><input id="spedSet" type="number" step="1" min="5" max="1000" value="50")></li>
+         <li class = "btn" onclick = "setSpeed()">设置时间</li>
+         <li class = "btn" onclick = "ZoomIn()">放大地图</li>
+         <li class = "btn" onclick = "ZoomOut()">缩小地图</li>
+         <li class = "file_select"><input type="file" id="selectFiles" onchange="dealSelectFiles()"  value="选择文件" ></li>
+         <li class = "information"><span>日期：</span><textarea id = "date" class="txt" rows="1" cols="12" ></textarea></li>
+         <li class = "information"><span>时间：</span><textarea id = "time" class="txt" rows="1" cols="12" ></textarea></li>
+         <li class = "information"><span>经度：</span><textarea id = "longitude" class="txt" rows="1" cols="12" ></textarea></li>
+         <li class = "information"><span>纬度：</span><textarea id = "latitude" class="txt" rows="1" cols="12" ></textarea></li>
+         <li class = "information"><span>高度：</span><textarea id = "high" class="txt" rows="1" cols="12" ></textarea></li>
+         <li class = "information"><span>速度：</span><textarea id = "speed" class="txt" rows="1" cols="12" ></textarea></li>
+         <li class = "information"><span>方向：</span><textarea id = "direction" class="txt" rows="1" cols="12" ></textarea></li>
+     </ul>
+
+     <progress id="progressbar" value="0" max="1000"></progress>     
+
+     <div id="colorBar"></div>
+     <div id="color-warp">
+        <span id="minsped">0</span>
+        <span id="sped1" class="speedColor">100</span>
+        <span id="sped2" class="speedColor">200</span>
+        <span id="sped3" class="speedColor">300</span>
+        <span id="maxsped">400</span>
+     </div>
+
+     <script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+     <!-- 坐标转换需要用到translate.js -->
+     <script src="javascript/translate.js"></script>
+     <script src="javascript/init.js"></script>
+     <script src="javascript/gps.js"></script>
+   </body>
+</html>
