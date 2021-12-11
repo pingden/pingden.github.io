@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=fK9F5kG5F3P7b5d2k2UddPphPWYild8u"></script>
+
+    <script src="javascript/gps.js"></script>
+    <script src="javascript/translate.js"></script>
+
+    <title>GPS轨迹重现在线版</title>
+</head>
+<body>
+    <div class = "info">
+        轨迹重现在线版：<br/>
+        （1）按Space暂停 <br/>
+        （2）按Backspace结束 
+        
+    </div>
+    <div id="allmap"></div>
+    <ul class="btn-wrap" style="z-index: 99;">
+        <li class = "btn" onclick = "load()">显示POI文字</li>
+        <li class = "btn" onclick = "load()">隐藏POI文字</li>
+        <li class = "btn" onclick = "red_display()">显示POI的Icon</li>
+        <li class = "btn" onclick = "load()">隐藏POI的Icon</li>
+        <li class = "file_select"><input type="file" id="selectFiles" onchange="dealSelectFiles()"  value="选择文件" ></li>
+        <li class = "information"><span>日期：</span><textarea id = "date" class="txt" rows="1" cols="12" ></textarea></li>
+        <li class = "information"><span>时间：</span><textarea id = "time" class="txt" rows="1" cols="12" ></textarea></li>
+        <li class = "information"><span>经度：</span><textarea id = "longitude" class="txt" rows="1" cols="12" ></textarea></li>
+        <li class = "information"><span>纬度：</span><textarea id = "latitude" class="txt" rows="1" cols="12" ></textarea></li>
+        <li class = "information"><span>高度：</span><textarea id = "high" class="txt" rows="1" cols="12" ></textarea></li>
+        <li class = "information"><span>速度：</span><textarea id = "speed" class="txt" rows="1" cols="12" ></textarea></li>
+        <li class = "information"><span>方向：</span><textarea id = "direction" class="txt" rows="1" cols="12" ></textarea></li>
+    </ul>
+</body>
+</html>
+<script type="text/javascript">
+	// 百度地图API功能
+	var map = new BMap.Map("allmap");    // 创建Map实例
+	map.centerAndZoom(new BMap.Point(104.0820, 30.63231), 17);  // 初始化地图,设置中心点坐标和地图级别
+    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+    map.setMapType(BMAP_SATELLITE_MAP);      // 设置地图类型为地球模式
+
+    
+    // 创建颜色样点
+    var red = {
+        strokeColor:'#FF0000',
+        fillColor:'#FF0000',
+        enableMassClear: false,
+        enableClicking : false,
+    };
+    var yellow = {
+        strokeColor:'#FFFF00',
+        fillColor:'#FFFF00',
+        enableMassClear: false,
+        enableClicking : false,
+    };
+    var white = {
+        strokeColor:'#FFFFFF',
+        fillColor:'#FFFFFF',
+        enableMassClear: false,
+        enableClicking : false,
+    };
+    var blue = {
+        strokeColor:'#0000FF',
+        fillColor:'#0000FF',
+        enableMassClear: false,
+        enableClicking : false,
+    };
+    var black = {
+        strokeColor:'#000000',
+        fillColor:'#000000',
+        enableMassClear: false,
+        enableClicking : false,
+    };
+    
+    var startIcon = new BMap.Icon("icon/start.png", new BMap.Size(48, 48),{
+        anchor:new BMap.Size(24, 42),
+    });      
+    var finalIcon = new BMap.Icon("icon/final.png", new BMap.Size(48, 48),{
+        anchor:new BMap.Size(24, 42),
+    });
+
+
+    // 起始点标志, 0为起点、1为普通点、2为终点
+    var flag = 0; 
+
+    // 速度
+    var sped;
+   
+    // 上一地图级别，当前地图级别
+    var last = 17 , current = 17;
+
+    var flag_timer = 1;  // 定时描点使能标志
+    document.onkeydown = function(event){        //在全局中绑定按下事件  
+        var e  = event  ||  window.e;     
+　　　　 var keyCode = e.keyCode || e.which;
+
+        switch(keyCode){
+            // 按Backspace结束描点
+　　　　    case 8:
+　　　　　　    flag_timer = 0;                
+               break;
+            // 按空格暂停描点
+           case 32:
+　　　　　　    alert('暂停，点击确定继续');
+               break;　　　
+　　    }　　
+    }
+
+  </script>

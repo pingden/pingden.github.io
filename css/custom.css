@@ -1,11 +1,17 @@
 /* 全局背景透明渐变 */
 #recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
     /* background: var(--light_bg_color) */
-    background: rgba(255,255,255,.70);
+    background: rgba(255,255,255, .85);
+    /* background: linear-gradient(to right, rgba(7,179,155,.8) ,rgba(109,186,130,.8)); */
+    /* background: linear-gradient(90deg,rgba(247,149,51,.8),rgba(243,112,85,.8) 15%,rgba(239,78,123,.8) 30%,rgba(161,102,171,.8) 44%,rgba(80,115,184,.8) 58%,rgba(16,152,173,.8) 72%,rgba(7,179,155,.8) 86%,rgba(109,186,130,.8)); */
+    
 }
 
 #aside-content .card-widget {
-    background: rgba(255,255,255,.70);
+    background: rgba(255,255,255,.85);
+    /* background: linear-gradient(90deg,rgba(247,149,51,.8),rgba(243,112,85,.8) 15%,rgba(239,78,123,.8) 30%,rgba(161,102,171,.8) 44%,rgba(80,115,184,.8) 58%,rgba(16,152,173,.8) 72%,rgba(7,179,155,.8) 86%,rgba(109,186,130,.8)); */
+    /* background: linear-gradient(to right, rgba(7,179,155,.8) ,rgba(155, 224, 174, 0.8)); */
+
 }
 
 #post{
@@ -18,13 +24,13 @@
     background: rgba(255,255,255,.90);
 }
 /* #web_bg {
-    background: linear-gradient(90deg,rgba(247,149,51,.1),rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1))
+    background: linear-gradient(90deg,rgba(247,149,51,.8),rgba(243,112,85,.8) 15%,rgba(239,78,123,.8) 30%,rgba(161,102,171,.8) 44%,rgba(80,115,184,.8) 58%,rgba(16,152,173,.8) 72%,rgba(7,179,155,.8) 86%,rgba(109,186,130,.8))
 }  */
 
 
 /* 页脚透明渐变 */
 /* #footer {
-    background: rgba(255,255,255,.15);
+    background: rgba(255,255,255,.85);
     color: #000;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -32,13 +38,13 @@
 }
 
 #footer::before {
-    background: rgba(255,255,255,.15)
+    background: rgba(255,255,255,.85)
 }
 
 #footer #footer-wrap {
-    color: rgba(255,255,255,.15);
+    color: rgba(255,255,255,.85);
 }
 
 #footer #footer-wrap a {
-    color: rgba(255,255,255,.15);
+    color: rgba(255,255,255,.85);
 } */
