@@ -1,14 +1,14 @@
 /* 全局背景透明渐变 */
 #recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
     /* background: var(--light_bg_color) */
-    background: rgba(255,255,255, .85);
+    background: rgba(255,255,255, .90);
     /* background: linear-gradient(to right, rgba(7,179,155,.8) ,rgba(109,186,130,.8)); */
     /* background: linear-gradient(90deg,rgba(247,149,51,.8),rgba(243,112,85,.8) 15%,rgba(239,78,123,.8) 30%,rgba(161,102,171,.8) 44%,rgba(80,115,184,.8) 58%,rgba(16,152,173,.8) 72%,rgba(7,179,155,.8) 86%,rgba(109,186,130,.8)); */
     
 }
 
 #aside-content .card-widget {
-    background: rgba(255,255,255,.85);
+    background: rgba(255,255,255,.90);
     /* background: linear-gradient(90deg,rgba(247,149,51,.8),rgba(243,112,85,.8) 15%,rgba(239,78,123,.8) 30%,rgba(161,102,171,.8) 44%,rgba(80,115,184,.8) 58%,rgba(16,152,173,.8) 72%,rgba(7,179,155,.8) 86%,rgba(109,186,130,.8)); */
     /* background: linear-gradient(to right, rgba(7,179,155,.8) ,rgba(155, 224, 174, 0.8)); */
 
